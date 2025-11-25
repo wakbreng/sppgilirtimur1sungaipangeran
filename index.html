@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SPPG MBG Ilir Timur 1 Palembang - Makanan Bergizi</title>
+  <meta name="description" content="Website dokumentasi dan profil program Makanan Bergizi (MBG) di SPPG Ilir Timur 1 Palembang" />
+  <meta name="keywords" content="Makanan Bergizi, SPPG Ilir Timur 1, MBG Palembang, Program Gizi Anak, Palembang">
+  <meta property="og:title" content="SPPG MBG Ilir Timur 1 Palembang">
+  <meta property="og:description" content="Program Makanan Bergizi untuk sekolah binaan Ilir Timur 1 Palembang">
+  <meta property="og:image" content="img/logo-sppg.png">
+  <link rel="icon" type="image/png" href="img/logo-sppg.png">
+  <style>
+    :root{--accent:#2b9eb3;--muted:#6b7280;--bg:#f7fafc;--card:#ffffff}
+    *{box-sizing:border-box}
+    body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,'Helvetica Neue',Arial;line-height:1.6;margin:0;background:var(--bg);color:#0f172a}
+    a{color:var(--accent);text-decoration:none}
+    header{background:linear-gradient(90deg,var(--accent),#3fb0c6);color:white;padding:28px 18px}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    .nav{display:flex;gap:18px;align-items:center;justify-content:space-between}
+    .logo{font-weight:700;font-size:20px}
+    nav a{color:rgba(255,255,255,0.95);margin-left:12px;font-weight:600}
+
+    .hero{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center;padding:28px 0}
+    .hero h1{font-size:28px;margin:0 0 10px}
+    .hero p{margin:0;color:rgba(255,255,255,0.95);max-width:60ch}
+    .btn{display:inline-block;background:white;color:var(--accent);padding:10px 14px;border-radius:10px;font-weight:700}
+
+    main{padding:28px 0}
+    .card{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+    .feature h3{margin:0 0 8px}
+    .muted{color:var(--muted)}
+
+    .schools{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:14px}
+    .school{display:flex;gap:12px;align-items:center;padding:10px;border-radius:10px;background:linear-gradient(180deg,#fff,#fbfdff)}
+    .school img{width:64px;height:64px;object-fit:cover;border-radius:8px}
+
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+    .gallery img{width:100%;height:160px;object-fit:cover;border-radius:8px;cursor:pointer}
+
+    footer{margin-top:28px;padding:18px 0;color:var(--muted)}
+
+    @media (max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.schools{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:24px}}
+    @media (max-width:520px){.nav{flex-direction:column;align-items:flex-start}.grid{grid-template-columns:1fr}.hero{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}}
+
+    .small{font-size:13px}
+    .badge{display:inline-block;background:rgba(43,158,179,0.12);color:var(--accent);padding:6px 10px;border-radius:999px;font-weight:700}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+        <div class="logo">
+            <img src="img/logo-sppg.png" alt="Logo SPPG Ilir Timur 1" width="70" height="70">
+            <span>SPPG Ilir Timur 1 Sungai Pangeran</span>
+          </div>
+          
+      <nav aria-label="Main navigation">
+        <a href="#about">Tentang</a>
+        <a href="#schools">Sekolah</a>
+        <a href="#gallery">Galeri</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </div>
+
+    <div class="container hero">
+      <div>
+        <h1>Program Makan Bergizi Gratis (MBG) – SPPG Ilir Timur 1 Sungai Pangeran</h1>
+        <p>SPPG Ilir Timur 1 Sungai Pangeran berperan aktif dalam mendukung pelaksanaan Program Makan Bergizi Gratis (MBG) di wilayah Ilir Timur 1. Dalam menjalankan Program Makan Bergizi Gratis, SPPG Ilir Timur 1 Sungai Pangeran memastikan bahwa makanan yang diberikan kepada siswa dipersiapkan dengan standar kebersihan yang baik, memiliki nilai gizi yang seimbang, dan aman untuk dikonsumsi.</p>
+       
+      </div>
+      <div style="display:flex;justify-content:center;align-items:center">
+        <!-- hero image dibiarkan tanpa lazy loading untuk visual utama -->
+   <img src="img/landscape-mbg.jpg"
+     alt="Ilustrasi MBG"
+     style="width:420px; border-radius:14px; object-fit:cover; box-shadow:0 4px 18px rgba(0,0,0,0.15)">
+
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>Latar Belakang</h2>
+      <p>Program Makan Bergizi Gratis merupakan salah satu upaya strategis pemerintah untuk meningkatkan kualitas sumber daya manusia sejak usia dini. Anak-anak sekolah merupakan kelompok usia yang membutuhkan asupan gizi seimbang guna mendukung pertumbuhan fisik, perkembangan kognitif, serta menjaga daya tahan tubuh agar tetap optimal. Namun, pada kenyataannya masih terdapat sebagian peserta didik yang datang ke sekolah tanpa sarapan atau dengan asupan gizi yang tidak memadai, sehingga berpengaruh pada konsentrasi, semangat belajar, dan prestasi akademik.
+</p>
+      <p>Melalui Program Makan Bergizi Gratis, SPPG Ilir Timur 1 Sungai Pangeran berkomitmen untuk memastikan setiap peserta didik mendapatkan makanan sehat, aman, dan bergizi setiap hari sekolah. Program ini bukan hanya bentuk dukungan terhadap kesehatan anak, tetapi juga investasi jangka panjang dalam peningkatan kualitas pendidikan di wilayah Ilir Timur 1.
+Selain itu, implementasi MBG turut melibatkan peran aktif masyarakat, tenaga pendidik, dan para relawan. Kolaborasi ini menciptakan ekosistem sekolah yang peduli terhadap pemenuhan gizi anak sekaligus memberdayakan masyarakat sekitar. Dengan adanya program ini, diharapkan tercipta lingkungan belajar yang lebih kondusif, anak-anak lebih fokus menerima pelajaran, serta tingkat kehadiran dan pencapaian akademik dapat meningkat.
+Secara keseluruhan, Program Makan Bergizi Gratis hadir sebagai langkah konkret dalam mewujudkan generasi yang lebih sehat, cerdas, dan berdaya saing, sejalan dengan komitmen pemerintah dalam membangun Indonesia yang lebih maju melalui peningkatan kualitas pendidikan dan kesehatan sejak dini.</p>
+
+ 
+
+    <section id="schools" style="margin-top:20px">
+  <h2>Daftar Sekolah Penerima</h2>
+  <p class="muted small">
+    Berikut daftar sekolah dasar, MI, SMP, dan SMK di wilayah SPPG Ilir Timur 1 Palembang yang telah menerima Program Makan Bergizi Gratis:
+  </p>
+
+  <div class="schools">
+    <div class="school card">
+      <img loading="lazy"
+           src="img/tk aisyiyah 9.png"
+           alt="TK Aisyiyah 9">
+      <div>
+        <div style="font-weight:700">TK Aisyiyah 9</div>
+        <div class="small muted">Status: Sekolah penerima MBG</div>
+      </div>
+    </div>
+
+    <!-- TK Telkom 1 -->
+    <div class="school card">
+      <img loading="lazy"
+           src="img/tk telkom 1.jpg"
+           alt="TK Telkom 1">
+      <div>
+        <div style="font-weight:700">TK Telkom 1</div>
+        <div class="small muted">Status: Sekolah penerima MBG</div>
+      </div>
+    </div>
+
+    <!-- SD N 44 -->
+    <div class="school card">
+      <img loading="lazy"
+           src="img/sdn 44.jpg"
+           alt="SDN 44">
+      <div>
+        <div style="font-weight:700">SD N 44</div>
+        <div class="small muted">Status: Sekolah penerima MBG</div>
+      </div>
+    </div>
+
+    <!-- SD N 39 -->
+    <div class="school card">
+      <img loading="lazy"
+           src="img/sd negeri 39.jpg"
+           alt="SDN 39">
+      <div>
+        <div style="font-weight:700">SD N 39</div>
+        <div class="small muted">Status: Sekolah penerima MBG</div>
+      </div>
+    </div>
+
+    <!-- MI Muhammadiyah 2 -->
+    <div class="school card">
+      <img loading="lazy"
+           src="img/MI Muhammadiyah 2.png"
+           alt="MI Muhammadiyah 2">
+      <div>
+        <div style="font-weight:700">MI Muhammadiyah 2</div>
+        <div class="small muted">Status: Sekolah penerima MBG</div>
+      </div>
+    </div>
+
+    <!-- SMP N 3 -->
+    <div class="school card">
+      <img loading="lazy"
+           src="img/smpn3.jpg"
+           alt="SMP N 3">
+      <div>
+        <div style="font-weight:700">SMP N 3</div>
+        <div class="small muted">Status: Sekolah penerima MBG</div>
+      </div>
+    </div>
+
+    <!-- SMK N 1 -->
+    <div class="school card">
+      <img loading="lazy"
+           src="https://images.unsplash.com/photo-1523475472560-d2df97ec485c?q=80&w=400&auto=format&fit=crop"
+           alt="SMK N 1">
+      <div>
+        <div style="font-weight:700">SMK N 1</div>
+        <div class="small muted">Status: Sekolah penerima MBG</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="gallery" style="margin-top:20px">
+      <h2>Galeri Kegiatan</h2>
+      <p class="muted small">Berikut dokumentasi kegiatan pembagian makanan bergizi dan edukasi gizi di sekolah-sekolah binaan:</p>
+      <div class="gallery card" style="padding:12px">
+    
+ <div class="card gallery-wrapper">
+    <div class="gallery">
+ <div class="card" style="padding:20px; max-width:1100px; margin:0 auto;">
+<div class="gallery" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:28px; justify-items:center;">
+
+
+<figure class="gallery-item" data-full="img/galeri-1.jpg" style="width:260px;">
+<img loading="lazy" src="img/kegiatan1.jpg" alt="Pembagian makanan bergizi kepada siswa" style="width:100%; height:320px; object-fit:cover; border-radius:14px;">
+<figcaption style="margin-top:10px; font-size:15px; color:var(--muted); font-weight:500;">Pembagian makanan bergizi kepada siswa</figcaption>
+</figure>
+
+
+<figure class="gallery-item" data-full="img/galeri-2.jpg" style="width:260px;">
+<img loading="lazy" src="img/kegiatan2.jpg" alt="Siswa menikmati makan bersama di sekolah" style="width:100%; height:320px; object-fit:cover; border-radius:14px;">
+<figcaption style="margin-top:10px; font-size:15px; color:var(--muted); font-weight:500;">Siswa menikmati makan bersama di sekolah</figcaption>
+</figure>
+
+
+<figure class="gallery-item" data-full="img/galeri-3.jpg" style="width:260px;">
+<img loading="lazy" src="img/kegiatan3.jpg" alt="Petugas menyiapkan menu bergizi" style="width:100%; height:320px; object-fit:cover; border-radius:14px;">
+<figcaption style="margin-top:10px; font-size:15px; color:var(--muted); font-weight:500;">Petugas menyiapkan menu bergizi</figcaption>
+</figure>
+
+
+<figure class="gallery-item" data-full="img/galeri-4.jpg" style="width:260px;">
+<img loading="lazy" src="img/kegiatan4.jpg" alt="Kegiatan edukasi gizi di kelas" style="width:100%; height:320px; object-fit:cover; border-radius:14px;">
+<figcaption style="margin-top:10px; font-size:15px; color:var(--muted); font-weight:500;">Kegiatan edukasi gizi di kelas</figcaption>
+</figure>
+
+
+<figure class="gallery-item" data-full="img/galeri-5.jpg" style="width:260px;">
+<img loading="lazy" src="img/kegiatan5.jpg" alt="Proses Pemasakan MBG" style="width:100%; height:320px; object-fit:cover; border-radius:14px;">
+<figcaption style="margin-top:10px; font-size:15px; color:var(--muted); font-weight:500;">Proses Memasak Mbg</figcaption>
+</figure>
+
+
+<figure class="gallery-item" data-full="img/galeri-6.jpg" style="width:260px;">
+<img loading="lazy" src="img/kegiatan6.jpg" alt="Makanan Mbg Siap Dikirim" style="width:100%; height:320px; object-fit:cover; border-radius:14px;">
+<figcaption style="margin-top:10px; font-size:15px; color:var(--muted); font-weight:500;">Makanan Siap Dikirim</figcaption>
+</figure>
+
+  
+      </figure>
+    </div>
+  </div>
+</section>
+        
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:20px">
+      <div class="card">
+     <h2 style="text-align:center">Social Media</h2>
+
+<div style="text-align:center; margin-top:15px; margin-bottom:25px">
+
+  <!-- Tombol TikTok -->
+  <a class="btn" 
+     href="https://www.tiktok.com/@sppgilirtimur1?_r=1&_t=ZS-91eprl5Y8Rt"
+     target="_blank" rel="noopener"
+     style="margin:5px; display:inline-block;">
+    TikTok
+  </a>
+
+  <!-- Tombol Instagram -->
+  <a class="btn" 
+     href="https://www.instagram.com/sppgilirtimur1.sungaipangeran?igsh=YXFqNDhmZnRlcW9x"
+     target="_blank" rel="noopener"
+     style="margin:5px; display:inline-block;">
+    Instagram
+  </a>
+
+  <!-- Tombol Google Maps -->
+  <a class="btn" 
+     href="https://maps.app.goo.gl/RKk5W7ozwfBqvsV99?g_st=ipc"
+     target="_blank" rel="noopener"
+     style="margin:5px; display:inline-block;">
+    Google Maps
+  </a>
+
+</div>
+
+
+    <!-- Statistik sederhana ditambahkan sebelum footer -->
+    <section style="margin-top:20px" class="card">
+      <h2 style="text-align:center">Statistik Program</h2>
+      <div style="display:flex;gap:20px;justify-content:center;margin-top:12px">
+        <div style="text-align:center">
+          <h3>7</h3>
+          <p class="muted small">Sekolah Penerima</p>
+        </div>
+        <div style="text-align:center">
+          <h3>3124</h3>
+          <p class="muted small">Jumlah Penerima MBG</p>
+        </div>
+        <div style="text-align:center">
+      </div>
+    </section>
+
+    <footer class="container small">
+      <div class="card" style="padding:12px;text-align:center">© 2025 SPPG Ilir Timur 1 Palembang Sungai Pangeran • Dibuat oleh Tim Sistem Informasi • <span class="muted">Perbarui konten secara berkala</span></div>
+    </footer>
+  </main>
+
+  <!-- BasicLightbox (lightbox ringan) untuk galeri -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5/dist/basicLightbox.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5/dist/basicLightbox.min.js"></script>
+
+  <!-- Schema.org JSON-LD untuk organisasi (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SPPG MBG Ilir Timur 1 Palembang",
+    "url": "",
+    "logo": "img/logo-sppg.png",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "telephone": "",
+      "contactType": "customer service",
+      "email": "sppgilirtimur1@gmail.com"
+    }]
+  }
+  </script>
+</body>
+</html>
